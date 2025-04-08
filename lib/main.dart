@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
         fontFamily: 'Inter',
       ),
-      home: const IPhone16ProMax1(), 
+      home: const IPhone16ProMax1(),
     );
   }
 }
