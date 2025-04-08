@@ -26,7 +26,7 @@ samples, guidance on mobile development, and a full API reference.
 - [Flutter SDK][https://flutter.dev/docs/get-started/install]
 - Please intall the flutter application for windows, and then select the android option for download
 - Add Flutter to your system path
-- Run flutter doctor after installation in the command prompt to ensure that everything is installed such as: Flutter, Dart, Android Studio, A device or emulator is available
+- Run the command "flutter doctor" after installation in the command prompt to ensure that everything is installed such as: Flutter, Dart, Android Studio, A device or emulator is available
 - [Android Studio][https://developer.android.com/studio]
 - Please install Android Studio on your device so that you can view the flutter project with ease
 - Set up an emulator device, Open Android Studio > Device Manager > Create Viryual Device
@@ -34,10 +34,11 @@ samples, guidance on mobile development, and a full API reference.
 - [VS code][https://code.visualstudio.com/download]
 - Please install VS Code so that you can view the code and run the flutter application
 - Install the Flutter extension to VS Code (the Dart extension will be automatically installed through this)
+- Run the command "flutter pub get" in order to generate a local.properties file which is vital for running our project, ensure the sdk.dir path is correctly linked to your sdk folder
 - Open up the device emulator through VS Code
 - Run the main.dart file without debugging by right-clicking the main file
 - Wait a few moments till the flutter app runs on the emulator in order to view the project
-- Chnage the sdk.dir in your local.properties file to match with the location that your sdk file is stored
+- Chanage the sdk.dir in your local.properties file to match with the location that your sdk file is stored
 
 ## Useful videos to help in the setup process
 - Setup Tutorial by [Ghost Together] (https://www.youtube.com/@ghosttogether)
